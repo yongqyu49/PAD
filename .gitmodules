@@ -1,0 +1,6 @@
+[submodule "front"]
+	path = front
+	url = https://github.com/yongqyu49/PAD_FE.git
+[submodule "PAD_BE"]
+	path = PAD_BE
+	url = https://github.com/yongqyu49/PAD_BE.git
