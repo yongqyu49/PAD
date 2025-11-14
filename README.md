@@ -263,22 +263,6 @@ cd PAD_BE
 
 WAR 파일은 `build/libs/` 디렉토리에 생성됩니다.
 
-## 🔄 서브모듈 업데이트
-
-서브모듈의 최신 변경사항을 가져오려면:
-
-```bash
-# 모든 서브모듈 업데이트
-git submodule update --remote --merge
-
-# 또는 개별 서브모듈 업데이트
-cd front
-git pull origin main
-
-cd ../PAD_BE
-git pull origin main
-```
-
 ## 📚 추가 정보
 
 ### 서브모듈 저장소
@@ -290,24 +274,3 @@ git pull origin main
 
 각 서브모듈의 README.md 파일에서 더 자세한 개발 가이드를 확인할 수 있습니다.
 
-## 🤝 기여
-
-이 프로젝트에 기여하고 싶으시다면:
-
-1. 저장소를 Fork 합니다
-2. 기능 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`)
-3. 변경사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`)
-4. 브랜치에 Push 합니다 (`git push origin feature/AmazingFeature`)
-5. Pull Request를 생성합니다
-
-## 📝 라이선스
-
-이 프로젝트는 개인 프로젝트입니다.
-
-## 👨‍💻 개발자
-
-- GitHub: [@yongqyu49](https://github.com/yongqyu49)
-
----
-
-**Note**: 이 프로젝트는 커뮤니티 게시판 플랫폼으로, 학습 및 포트폴리오 목적으로 개발되었습니다.
